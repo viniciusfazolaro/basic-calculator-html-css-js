@@ -1,2 +1,9 @@
 # basic-calculator-html-css-js
-Calculadora básica utilizando HTML, CSS e JavaScript
+
+< PT-BR >
+
+Exercício de uma calculadora básica utilizando HTML, CSS e JavaScript.
+
+< EN >
+
+Basic calculator exercise using HTML, CSS and JavaScript.
