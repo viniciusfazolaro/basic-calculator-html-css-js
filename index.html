@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+        
+        <div class="calculator">
+            <table>
+                <tr>
+                    <td colspan="4"><input type="text" id="result" disabled></td>
+                </tr>
+
+                <tr>
+                    <td><button id="clear">C</button></td>
+                    <td><button id="delete">DEL</button></td>
+                    <td><button id="divide">/</button></td>
+                    <td><button id="multiply">*</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="seven">7</button></td>
+                    <td><button id="eight">8</button></td>
+                    <td><button id="nine">9</button></td>
+                    <td><button id="subtract">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="four">4</button></td>
+                    <td><button id="five">5</button></td>
+                    <td><button id="six">6</button></td>
+                    <td><button id="addition">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="one">1</button></td>
+                    <td><button id="two">2</button></td>
+                    <td><button id="three">3</button></td>
+                    <td rowspan="2"><button id="equal">=</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button id="zero">0</button></td>
+                    <td><button id="point">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
